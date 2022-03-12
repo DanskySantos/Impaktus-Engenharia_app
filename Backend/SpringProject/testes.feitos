@@ -1,0 +1,19 @@
+Postman...
+
+Category:
+
+GET - findById - OK!
+GET - findAll - OK!
+POST - createCategory - OK!
+PUT - updateCategory - OK!
+DELETE - offline!
+
+
+Provider:
+Don't need findAll on provider;
+
+GET - findById - OK!
+GET - findByCategory - OK!
+POST - createProvider - OK!
+PUT - updateProvider - OK!
+DELETE - offline!
