@@ -6,10 +6,7 @@ import {BASE_URL} from "../../utils/requests";
 
 function ProviderShowPage() {
 
-    // const categoryId
-
     const params = useParams();
-
 
     const [loading, setLoading] = useState(true)
     const [providers, setProviders] = useState([])
@@ -23,9 +20,6 @@ function ProviderShowPage() {
 
         });
     }, [])
-
-
-
 
     const [pageNumber, setPageNumber] = useState(0);
 
