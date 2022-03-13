@@ -3,6 +3,7 @@ import {Link, useParams} from "react-router-dom";
 import axios from "axios";
 import {BASE_URL} from "../../utils/requests";
 import {useEffect, useState} from "react";
+import category from "../Category";
 
 function CategorySearch() {
 
@@ -60,7 +61,7 @@ function CategorySearch() {
                                             {
                                                 categories.map((cat:any) => {
                                                     return (
-                                                        <option value={cat.id}> {cat.name}</option>
+                                                        <option key={cat.id} value={cat.id}> {cat.name}</option>
                                                     )})
                                             }
                                         </select>
