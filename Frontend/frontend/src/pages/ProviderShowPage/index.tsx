@@ -19,7 +19,7 @@ function ProviderShowPage() {
             setLoading(false)
 
         });
-    }, [])
+    }, [params.categoryId])
 
     const [pageNumber, setPageNumber] = useState(0);
 

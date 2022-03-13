@@ -1,6 +1,6 @@
 import './styles.css'
-import {Link, useNavigate, useParams} from "react-router-dom";
-import React, {useEffect, useState} from "react";
+import {useNavigate} from "react-router-dom";
+import React, {useState} from "react";
 import axios, {AxiosRequestConfig} from "axios";
 import {BASE_URL} from "../../utils/requests";
 

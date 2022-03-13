@@ -69,7 +69,7 @@ function ProviderRegister() {
     }, [])
 
     function selectCategory(e:any) {
-        if (e.target.value == '0') {
+        if (e.target.value === '0') {
             console.log('Selecione uma opçao valida')
         } else {
             setSelectedCategory(e.target.value)

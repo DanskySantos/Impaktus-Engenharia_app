@@ -3,7 +3,6 @@ import {Link, useParams} from "react-router-dom";
 import axios from "axios";
 import {BASE_URL} from "../../utils/requests";
 import {useEffect, useState} from "react";
-import category from "../Category";
 
 function CategorySearch() {
 
@@ -24,7 +23,7 @@ function CategorySearch() {
     }
 
     function updateCategories(e:any) {
-        if (e.target.value == '0') {
+        if (e.target.value === '0') {
             console.log('Selecione uma opçao valida')
         } else {
             setCurrentCategory(e.target.value)
