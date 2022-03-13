@@ -30,12 +30,11 @@ function ProviderShowPage() {
                 ('Loading...')
                 :
                 (
-                    <>
             <div className='container'>
                 {
                     providers.map((provider:any) => {
                         return (
-                            <div className= "row">
+                            <div key={provider.id} className= "row">
                                 <div className={"presentation h2 mt-5"}>{provider.name}</div>
                                 <div className={"presentation mt-3"}>CNPJ/CPF: {provider.cnpj}</div>
                                 <div className={"presentation"}>E-mail: {provider.email}</div>
@@ -49,7 +48,6 @@ function ProviderShowPage() {
                     })
                 }
             </div>
-                    </>
                 )
             }
         </>
