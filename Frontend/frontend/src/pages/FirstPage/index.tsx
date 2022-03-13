@@ -8,10 +8,10 @@ function FirstPage() {
 
     return (
         <>
-            { loading?
-                ('Loading...')
-                :
-                (
+            {/*{ loading?*/}
+            {/*    ('Loading...')*/}
+            {/*    :*/}
+            {/*    (*/}
                     <>
             <Pagination />
 
@@ -24,8 +24,8 @@ function FirstPage() {
                 </div>
             </div>
                     </>
-                )
-            }
+            {/*    )*/}
+            {/*}*/}
         </>
 
     );
